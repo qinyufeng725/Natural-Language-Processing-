@@ -43,11 +43,11 @@ WSJ_23.words -- to run your system on.  You should produce a file in
 	     	the .pos format as your output and submit it as per the
 		submission instructions to be announced.
 
-score.py -- this is a scorer which you can use on your development corpus. The scoring command is: 
+score_.py -- this is a scorer which you can use on your development corpus. The scoring command is: 
 
-python score.py WSJ_24.pos WSJ_24_sys.pos
+python score_.py WSJ_24.pos submission.pos
 
-assuming that your system output is called WSJ_24_sys.pos
+assuming that your system output is called submission.pos
 
 This will give you an accuracy score. For further debugging and
 tuning, I suggest using the UNIX diff utility.
